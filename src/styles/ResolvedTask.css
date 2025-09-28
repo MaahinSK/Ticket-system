@@ -1,0 +1,23 @@
+.resolved-box {
+  border: 1px solid #ddd;
+  padding: 14px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.resolved-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resolved-box li {
+  background: #f3f4f6;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+.no-task {
+  color: #888;
+}

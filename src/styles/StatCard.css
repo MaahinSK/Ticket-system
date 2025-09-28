@@ -10,7 +10,7 @@
 
 .stat-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -29,9 +29,47 @@
 }
 
 .purple-gradient {
-  background: linear-gradient(to right, #7c3aed, #4338ca);
+  background: linear-gradient(to right, #7c3aed, #25c7c7);
 }
 
 .green-gradient {
-  background: linear-gradient(to right, #10b981, #059669);
+  background: linear-gradient(to right, #10b981, #490596);
+}
+
+/* Vector overlay */
+.stat-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3; /* Reduced transparency for better readability */
+  z-index: 0;
+}
+
+.in-progress::before {
+  background-image: url('../../public/vector1.png');
+}
+
+.resolved::before {
+  background-image: url('../../public/vector1.png');
+}
+
+/* Make sure text stays above overlay */
+.stat-label {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  position: relative;
+  z-index: 1;
+  font-size: 48px;
+  font-weight: 700;
 }

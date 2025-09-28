@@ -1,0 +1,44 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+}
+
+.stat-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 16px;
+}
+
+.ticket-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.side-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .stat-container {
+    grid-template-columns: 1fr;
+  }
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .ticket-grid {
+    grid-template-columns: 1fr;
+  }
+}

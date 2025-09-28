@@ -1,0 +1,21 @@
+.task-box {
+  border: 1px solid #ddd;
+  padding: 14px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.task-box button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.no-task {
+  color: #888;
+}
