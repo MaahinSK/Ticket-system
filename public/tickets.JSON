@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Vinícius Júnior",
+    "id": 1001,
+    "title": "Wrong size shirt delivered",
+    "description": "Received size M instead of L for the 'Classic Football Tee' (Order #9876). This is a priority as it's a gift. Need to arrange an exchange ASAP.",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2024-09-20"
+  },
+  {
+    "name": "Jude Bellingham",
+    "id": 1002,
+    "title": "Payment failed, money taken",
+    "description": "The order total was deducted from my bank account, but the website shows 'Payment Failed.' Please verify the transaction and confirm Order #9877.",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2024-09-19"
+  },
+  {
+    "name": "Rodrygo",
+    "id": 1003,
+    "title": "Tracking number not working",
+    "description": "The tracking link provided for Order #9878 leads to a 'Not Found' error page on the courier's website. I cannot check the shipping status.",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-18"
+  },
+  {
+    "name": "Luka Modrić",
+    "id": 1004,
+    "title": "Damaged item received, refund",
+    "description": "The item (a glass coffee maker, Order #9879) arrived completely shattered. Attached photos of the damaged packaging and product. Requesting a full refund.",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2024-09-17"
+  },
+  {
+    "name": "Toni Kroos",
+    "id": 1005,
+    "title": "Discount code not applied",
+    "description": "The promotional code 'SUMMER25' is not being accepted at checkout, even though the items in my cart meet the minimum spend requirement. Please help me apply it.",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-16"
+  },
+  {
+    "name": "Éder Militão",
+    "id": 1006,
+    "title": "Missing one item shipment",
+    "description": "Order #9880 was supposed to contain 3 items (2 books and 1 lamp), but only the two books were included in the box. The 'Desk Lamp Pro' is missing.",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-15"
+  },
+  {
+    "name": "David Alaba",
+    "id": 1007,
+    "title": "Cannot log into account",
+    "description": "I cannot log into my account. I tried resetting the password but the recovery email never arrived in my inbox (checked spam).",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-14"
+  },
+  {
+    "name": "Thibaut Courtois",
+    "id": 1008,
+    "title": "Cancel order placed accidentally",
+    "description": "Please cancel Order #9881, placed about an hour ago. I accidentally duplicated an existing order. Items have not shipped yet.",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2024-09-13"
+  },
+  {
+    "name": "Nacho Fernández",
+    "id": 1009,
+    "title": "Product material specification question",
+    "description": "Need clarification on the material used for the 'Outdoor Camping Tent.' Is the floor made of reinforced polyethylene or nylon?",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2024-09-12"
+  },
+  {
+    "name": "Federico Valverde",
+    "id": 1010,
+    "title": "Website slow performance",
+    "description": "The product category pages are loading extremely slowly on my desktop browser (Chrome, Windows 11). It takes over 10 seconds to render the page.",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2024-09-11"
+  },
+  {
+    "name": "Eduardo Camavinga",
+    "id": 1011,
+    "title": "Request formal VAT invoice",
+    "description": "I need a formal VAT invoice with my business details for Order #9882. The standard receipt email is insufficient for accounting purposes.",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-10"
+  },
+  {
+    "name": "Aurélien Tchouaméni",
+    "id": 1012,
+    "title": "Received expired food product",
+    "description": "The gourmet tea package (Order #9883) I received has an expiration date that passed three weeks ago. This is unacceptable. Need a replacement immediately.",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2024-09-09"
+  },
+  {
+    "name": "Kepa Arrizabalaga",
+    "id": 1013,
+    "title": "Return portal malfunctioning",
+    "description": "The online return portal stops responding when I try to select a reason for return. Cannot generate the return label for Order #9884.",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2024-09-08"
+  },
+  {
+    "name": "Dani Carvajal",
+    "id": 1014,
+    "title": "Modify delivery address request",
+    "description": "Need to urgently change the shipping address for Order #9885. It has not shipped yet. The new address is [New Address Details].",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2024-09-07"
+  }
+]
